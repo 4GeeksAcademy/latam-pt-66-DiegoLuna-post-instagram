@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+.post {
+    background-color: white;
+    width: 500px;
+	height: auto;
+	margin: auto;
+}
+.post-header { 
+    display: flex;
+}
+i {
+    font-size: 25px;
+}
+.html i {
+    padding: 10px;
+    padding-right: 0px;
+}
+.title {
+    padding: 10px;
+    padding-right: 0px;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+	margin: 0%;
+}
+.options i {
+    padding: 10px;
+    padding-left: 10px;
+}
+img {
+    width: 500px;
+	height: auto;
+}
+.post-icons {
+    display: flex;
+    padding: 10px;
+}
+.post-icons i {
+    padding: 2px;
+}
+.bookmark {
+    padding-left: 370px;
+    padding-right: 10px;
+}
+.p {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
