@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+.post{
+    background-color: white;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    font-family: 'Playwrite NZ Basic', sans-serif;
+}
+.post-head{
+    display: flex;
+    padding: 10px;
+}
+i{
+    font-size: 25px;
+}
+.head-text{
+    font-size: 7.5px;
+    margin-left: 10px;   
+}
+.fa-ellipsis-vertical{
+    margin-left: auto;
+}
+img{
+    display: flex;
+    width: 500px;
+}
+.icons{
+    display: flex;
+}
+.icons-right{
+    padding: 10px;
+}
+.fa-bookmark{
+    margin-left: auto;
+    padding: 10px;
+}
+p{
+    font-size: 15px;
+    padding: 10px;
+}
+.bottom{
+    padding: 5px;
+}
+
