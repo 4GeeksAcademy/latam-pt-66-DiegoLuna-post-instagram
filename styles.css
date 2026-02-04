@@ -1,26 +1,29 @@
 body{
     background-color: black;
+    display: flex;
+    justify-content: center;
 }
 .post{
     background-color: white;
     width: 500px;
     height: auto;
-    margin: auto;
     font-family: 'Playwrite NZ Basic', sans-serif;
 }
 .post-head{
     display: flex;
     padding: 10px;
+    justify-content: space-between;
+}
+.post-head-first {
+    display: flex;
+    
 }
 i{
     font-size: 25px;
 }
 .head-text{
     font-size: 7.5px;
-    margin-left: 10px;   
-}
-.fa-ellipsis-vertical{
-    margin-left: auto;
+    padding-left: 10px;
 }
 img{
     display: flex;
@@ -28,12 +31,12 @@ img{
 }
 .icons{
     display: flex;
+    justify-content: space-between;
 }
 .icons-right{
     padding: 10px;
 }
 .fa-bookmark{
-    margin-left: auto;
     padding: 10px;
 }
 p{
